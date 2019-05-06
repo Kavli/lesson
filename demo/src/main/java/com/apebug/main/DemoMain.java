@@ -3,6 +3,8 @@ package com.apebug.main;
 import com.apebug.entity.Father;
 import com.apebug.entity.Son;
 
+import java.util.ArrayList;
+
 /**
  * @author EX-liuzhenyu001
  * @ClassName: DemoMain
@@ -12,7 +14,6 @@ import com.apebug.entity.Son;
 
 public class DemoMain {
     public static void main(String[] args){
-        Son son = new Son();
-        Son son2 = new Son();
+        ArrayList<String> list = new ArrayList<String>();
     }
 }
